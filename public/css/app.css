@@ -1,0 +1,36 @@
+#fav{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    z-index: 100;
+    opacity: 0.5;
+}
+
+.stretched-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: auto;
+    content: "";
+    background-color: rgba(0,0,0,0);
+}
+
+#btnCard{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: 100;
+}
+
+.cart_to_class:hover{
+    margin-right:10px;
+    opacity: 0.75;
+    transition: 0.5s;
+}
